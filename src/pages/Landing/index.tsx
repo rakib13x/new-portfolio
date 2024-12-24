@@ -1,5 +1,10 @@
+import HomeSection from "./sections/home";
 function Home() {
-  return <>Hello</>;
+  return (
+    <>
+      <HomeSection />
+    </>
+  );
 }
 
 export default Home;
